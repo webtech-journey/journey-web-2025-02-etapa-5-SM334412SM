@@ -1,15 +1,13 @@
 # 🧪 Relatório de Avaliação – Autograder HTML - SM334412SM
 
-**Data:** 20/05/2025 18:04
+**Data:** 20/05/2025 18:09
 
-**Nota Final:** `44.44/100`
+**Nota Final:** `53.33/100`
 **Status:** ❌ Reprovado
 
 ---
 ## ✅ Requisitos Obrigatórios (80%)
-- Foram encontrados `4` problemas nos requisitos obrigatórios. Veja abaixo os testes que falharam:
-  - ⚠️ **Falhou no teste**: `test_base.py::test_bootstrap_linked`
-    - **Melhoria sugerida**: O Bootstrap não foi encontrado. Certifique-se de incluir a CDN no <head> do HTML.
+- Foram encontrados `3` problemas nos requisitos obrigatórios. Veja abaixo os testes que falharam:
   - ⚠️ **Falhou no teste**: `test_base.py::test_navbar_present`
     - **Melhoria sugerida**: A navbar com Bootstrap não foi encontrada. Utilize as classes 'navbar' corretamente.
   - ⚠️ **Falhou no teste**: `test_base.py::test_responsive_layout`
