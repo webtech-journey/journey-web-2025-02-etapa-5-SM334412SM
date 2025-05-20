@@ -1,1 +1,111 @@
+/* Fonte geral */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #0c0e13, #0c0f13);
+    color: #141414;
+}
 
+/* Cabeçalho */
+header {
+    background: linear-gradient(to right, #0e0f0f, #090a0a);
+    color: rgb(241, 238, 238);
+    padding: 40px 20px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+/* Navegação */
+nav {
+    background-color: #f5f1f1;
+    display: flex;
+    justify-content: center;
+    padding: 15px 0;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+nav a {
+    color: #212324;
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: bold;
+    transition: color 0.3s, border-bottom 0.3s;
+    padding: 5px;
+}
+
+nav a:hover {
+    color: #0066cc;
+    border-bottom: 2px solid #0066cc;
+}
+
+/* Seções */
+section {
+    padding: 40px 20px;
+    max-width: 900px;
+    margin: 30px auto;
+    background-color: #f1ecec;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #080a0c;
+    font-size: 1.8em;
+    margin-bottom: 15px;
+}
+
+/* Imagem de perfil */
+section img {
+    width: 200px;
+    height: 200px;
+    border-radius: 60%;
+    object-fit: cover;
+    display: block;
+    margin: 10px auto;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+/* Parágrafos */
+p {
+    line-height: 1.6;
+    font-size: 1.1em;
+}
+
+/* Rodapé */
+footer {
+    background-color: #f8fafc;
+    color: rgb(20, 20, 20);
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    font-size: 0.95em;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column;
+    }
+
+    nav a {
+        margin: 10px 0;
+    }
+
+    section {
+        margin: 15px;
+        padding: 25px 15px;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+}
