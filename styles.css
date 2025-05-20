@@ -74,6 +74,11 @@ section img {
     box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }
 
+i {
+    font-size: 2em;
+    color: #22c55e;
+}
+
 /* Parágrafos */
 p {
     line-height: 1.6;
